@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Decklists</title>
+<link rel="stylesheet" href="deckListCSS.css">
+
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+
+function showCard(item) {
+		item.style.visibility = "visible";
+}
+	
+	function hideCard(item) {
+		item.style.visibility = "hidden";
+}
+</script>
+</head>
+
+<body>
+	<h1>Magic Duels Deck Lists</h1>
+	<div>
+		<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">Contents</a>
+		<div id="example" class="more">
+			<p>
+			<a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">Contents</a><br>
+			Red<br>
+				<a id="tab" href="#redDeckWins">Red Deck Wins</a><br>
+			Izzet<br>
+				<a id="tab" href="#madMill">Mad Mill</a>
+			</p>
+		</div>
+	</div>
+	<div>
+		<table id="redDeckWins" class="redGradient" style="float:right">
+		<tr>
+			<td rowspan="10" class="tableCardType">Creatures<br>and Vehicles</td>
+			<td class="tableFirstCell"><a id="cardimg" href="#" onmouseover="showCard(GGC)" onmouseout="hideCard(GGC)">3x Goblin Glory Chaser</a></td>
+		</tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(IA)" onmouseout="hideCard(IA)">3x Inventor's Apprentice</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(BI)" onmouseout="hideCard(BI)">4x Bold Impaler</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(CD)" onmouseout="hideCard(CD)">3x Consulate Dreadnought</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(KZ)" onmouseout="hideCard(KZ)">2x Kari Zev, Skyship Raider</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(SC)" onmouseout="hideCard(SC)">2x Smuggler's Copter</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(CFK)" onmouseout="hideCard(CFK)">1x Chandra, Fire of<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kaladesh</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(HG)" onmouseout="hideCard(HG)">2x Hanweir Garrison</a></td></tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(FC)" onmouseout="hideCard(FC)">2x Fleetwheel Cruiser</a></td></tr>
+		<tr><td class="tableLastCell"><a id="cardimg" href="#" onmouseover="showCard(CG)" onmouseout="hideCard(CG)">1x Combustible Gearhulk</a></td></tr>
+		
+		<tr>
+			<td class="tableCardType">Planeswalkers</td>
+			<td class="tableOnlyCell"><a id="cardimg" href="#" onmouseover="showCard(CF)" onmouseout="hideCard(CF)">1x Chandra, Flamecaller</a></td>
+		</tr>
+		
+		<tr>
+			<td class="tableCardType">Enchantments</td>
+			<td class="tableOnlyCell"><a id="cardimg" href="#" onmouseover="showCard(SM)" onmouseout="hideCard(SM)">3x Siege Modification</a></td>	
+		</tr>
+		
+		<tr>
+			<td class="tableCardType">Artifacts</td>
+			<td class="tableOnlyCell"><a id="cardimg" href="#" onmouseover="showCard(BS)" onmouseout="hideCard(BS)">3x Bone Saw</a></td>
+		</tr>
+		
+		<tr>
+			<td rowspan="3" class="tableCardType">Instants<br>and Sorceries</td>
+			<td class="tableFirstCell"><a id="cardimg" href="#" onmouseover="showCard(SHK)" onmouseout="hideCard(SHK)">4x Shock</a></td>
+		</tr>
+		<tr><td class="tableMidCell"><a id="cardimg" href="#" onmouseover="showCard(EF)" onmouseout="hideCard(EF)">2x Exquisite Firecraft</a></td></tr>
+		<tr><td class="tableLastCell"><a id="cardimg" href="#" onmouseover="showCard(CDF)" onmouseout="hideCard(CDF)">2x Collective Defiance</a></td></tr>
+		
+		<tr>
+			<td rowspan="2" class="tableCardType">Lands</td>
+			<td class="tableFirstCell"><a id="cardimg" href="#" onmouseover="showCard(MNT)" onmouseout="hideCard(MNT)">20x Mountain</a></td>
+		</tr>
+		<tr><td class="tableLastCell"><a id="cardimg" href="#" onmouseover="showCard(HB)" onmouseout="hideCard(HB)">2x Hanweir Battlements</a></td></tr>
+	</table>
+		<p style="padding-right:2em">&nbsp;<br>
+		<strong><center>Red Deck Wins</center></strong><br>
+		
+		This deck is pretty straight forward: Keep smashing!<br><br>
+		
+		This is my bread and butter from when I began playing paper magic.<br><br>
+		
+		I've always been an RDW guy, and, on the occasion I can get out to
+		play paper, I usually try to scrounge up some form of the deck to
+		bring with me.<br><br>
+		
+		When Consulate Dreadnought was spoiled before Aether Revolt release, I
+		knew immediately it was going to find a home in here.<br><br>
+		
+		Some (or most) players would say it's a terrible card, but I play the
+		cards I find interesting, and, if they use a removal spell on the
+		Dreadnought,well, I have more guys to throw at 'em!"
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br></p>
+	</div>
+	
+	<table id="madMill" class="blueRedGradient" style="float:right">
+		<tr>
+			<td rowspan="4" class="tableCardType">Creatures</td>
+			<td class="tableFirstCell">1x Jace, Vryn's Prodigy<td>
+		</tr>
+		<tr><td class="tableMidCell">1x Baral, Chief of <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compliance</td></tr>
+		<tr><td class="tableMidCell">2x Thing in the Ice</td></tr>
+		<tr><td class="tableLastCell">1x Bedlam Reveler</td></tr>
+		<tr>
+			<td class="tableCardType">Planeswalkers&nbsp;&nbsp;</td>
+			<td class="tableOnlyCell">1x Chandra, Flamecaller</td>
+		</tr>
+		<tr>
+			<td rowspan="3" class="tableCardType">Enchantments&nbsp;&nbsp;</td>
+			<td class="tableFirstCell">1x Oath of Jace</td>
+		</tr>
+		<tr><td class="tableMidCell">2x Fevered Visions</td></tr>
+		<tr><td class="tableLastCell">3x Sphinx's Tutelage</td></tr>
+		<tr>
+			<td rowspan="8" class="tableCardType">Instants<br>and Sorceries</td>
+			<td class="tableFirstCell">3x Lightning Axe</td>
+		</tr>
+		<tr><td class="tableMidCell">4x Galvanic Bombardment</td></tr>
+		<tr><td class="tableMidCell">1x Disperse</td></tr>
+		<tr><td class="tableMidCell">4x Take Inventory</td></tr>
+		<tr><td class="tableMidCell">4x Cathartic Reunion</td></tr>
+		<tr><td class="tableMidCell">4x Fiery Temper</td></tr>
+		<tr><td class="tableMidCell">2x Collective Defiance</td></tr>
+		<tr><td class="tableLastCell">2x Pore over the Pages</td></tr>
+		<tr>
+			<td rowspan="6" class="tableCardType">Lands</td>
+			<td class="tableFirstCell">7x Island</td>
+		</tr>
+		<tr><td class="tableMidCell">9x Mountain</td></tr>
+		<tr><td class="tableMidCell">2x Wandering Fumarole</td></tr>
+		<tr><td class="tableMidCell">2x Sulfur Falls</td></tr>
+		<tr><td class="tableMidCell">2x Highland Lake</td></tr>
+		<tr><td class="tableLastCell">1x Geier Reach Sanitarium</td></tr>
+	</table>
+	<p>
+		&nbsp;<br>
+		<strong><center>Mad Mill</center></strong><br>
+		
+		Mad Mill is a deck I discovered from <a href="https://youtu.be/rSFIzUH8u1w">LegenVD's</a> Magic Duels YouTube
+		channel.<br><br>
+		
+		This deck relies on you burning through your library so that you can dump your
+		opponent's library into their graveyard, milling them out.<br><br>
+		
+		The center piece to this masterpiece, of course, is Sphynx's Tutelage.
+		Combining this card with the artment of draw spells and abilities allows
+		allows you mill your opponent fairly quickly.<br><br>
+		
+		It's not uncommon, if you play your cards right, to mill 20+ cards in a single
+		turn. I know I've saved the game more than a few times by managing a win this
+		way.<br><br>
+		
+		The "Mad" in "Mad Mill" comes from a few madness spells. Many spells and abilities
+		in the deck has the pilot discarding cards as a resource.<br><br>
+		
+		In Amonkhet's upcoming release, I am looking forward to adding Drake Haven to take
+		advantage of the discard affects, as well as the potential to add cycling for more
+		card draw effects.
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+	</p>
+
+<table id="GGC" ><tr><td><img src="cardImages/RDW/Goblin%20Glory%20Chaser.jpeg"></td></tr></table>
+<table id="BI" ><tr><td><img src="cardImages/RDW/Bold%20Impaler.jpeg"></td></tr></table>
+<table id="BS" ><tr><td><img src="cardImages/RDW/Bone%20Saw.jpeg"></td></tr></table>
+<table id="CF" ><tr><td><img src="cardImages/RDW/Chandra%20Flamecaller.jpeg"></td></tr></table>
+<table id="CDF" ><tr><td><img src="cardImages/RDW/Collective%20Defiance.jpeg"></td></tr></table>
+<table id="CD" ><tr><td><img src="cardImages/RDW/Consulate%20Dreadnought.jpeg"></td></tr></table>
+<table id="EF" ><tr><td><img src="cardImages/RDW/Exquisite%20Firecraft.jpeg"></td></tr></table>
+<table id="FC" ><tr><td><img src="cardImages/RDW/Fleetwheel%20Cruiser.jpeg"></td></tr></table>
+<table id="HB" ><tr><td><img src="cardImages/RDW/Hanweir%20Battlements.jpeg"></td></tr></table>
+<table id="HG" ><tr><td><img src="cardImages/RDW/Hanweir%20Garrison.jpeg"></td></tr></table>
+<table id="IA" ><tr><td><img src="cardImages/RDW/Inventors%20Apprentice.jpeg"></td></tr></table>
+<table id="KZ" ><tr><td><img src="cardImages/RDW/Kari%20Zev%20Skyship%20Raider.jpeg"></td></tr></table>
+<table id="MNT" ><tr><td><img src="cardImages/RDW/Mountain.jpeg"></td></tr></table>
+<table id="SHK" ><tr><td><img src="cardImages/RDW/Shock.jpeg"></td></tr></table>
+<table id="SM" ><tr><td><img src="cardImages/RDW/Siege%20Modification.jpeg"></td></tr></table>
+<table id="CFK" ><tr><td><img src="cardImages/RDW/Chandra%20Fire%20of%20Kaladesh.jpeg"></td></tr></table>
+<table id="SC" ><tr><td><img src="cardImages/RDW/Smugglers%20Copter.jpeg"></td></tr></table>
+<table id="CG" ><tr><td><img src="cardImages/RDW/Combustible%20Gearhulk.jpeg"></td></tr></table>
+</body>
+</html>

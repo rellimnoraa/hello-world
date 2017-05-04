@@ -1,0 +1,95 @@
+﻿body {
+	background-image:url('Fankit/KLD/KLD_Texture_Light_RGB.jpg');
+	width:800px;
+	margin:auto;
+}
+
+.tableCardType {
+	border-bottom:1px black solid;
+	border-left:1px black solid;
+	border-top:1px black solid;
+}
+
+.tableFirstCell {
+	border-top:1px black solid;
+	border-right:1px black solid;
+}
+
+.tableMidCell {
+	border-right:1px black solid;
+}
+
+.tableLastCell {
+	border-right:1px black solid;
+	border-bottom:1px black solid;
+}
+
+.tableOnlyCell {
+	border-top:1px black solid;
+	border-right:1px black solid;
+	border-bottom:1px black solid;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+.floatRight {
+	float:right;
+}
+	
+.floatLeft {
+	float:left;
+}
+
+.redGradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,000000+100&0.65+0,0+100 */
+	background: -moz-linear-gradient(-45deg,  rgba(255,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(255,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ff0000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.blueRedGradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0000ff+0,ff0000+100&0.65+0,0.65+100 */
+	background: -moz-linear-gradient(-45deg,  rgba(0,0,255,0.65) 0%, rgba(255,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(0,0,255,0.65) 0%,rgba(255,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(0,0,255,0.65) 0%,rgba(255,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a60000ff', endColorstr='#a6ff0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+h1 {
+	text-align:center;
+}
+
+.more {
+      display: none;
+}
+
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+}
+
+a.hideLink {
+	background: transparent url(up.gif) no-repeat left; 
+}
+
+a.showLink:hover, a.hideLink:hover {
+	border-bottom: 1px dotted #36f; 
+}
+
+#tab {
+	padding-left:2em;
+}
+
+#GGC,#BI, #BS, #CFK, #CF, #CDF, #CD, #EF, #FC, #HB, #HG, #IA, #KZ, #MNT, #SHK, #SM, #SC, #CG {
+	visibility:hidden;
+	position:absolute;
+	left:40px;
+	bottom:150px;
+}
+
+a#cardimg {
+	text-decoration:none;
+	color:black;
+}
